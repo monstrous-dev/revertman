@@ -1,0 +1,27 @@
+{
+  "name": "revertman",
+  "version": "0.1.0",
+  "description": "Revertman — a pi extension that snapshots your files before every agent turn and gives you a /revert undo button for both files and conversation.",
+  "keywords": ["pi-package", "pi", "pi-extension", "revertman", "undo", "revert", "git"],
+  "license": "MIT",
+  "author": {
+    "name": "monstrous-dev",
+    "url": "https://github.com/monstrous-dev"
+  },
+  "homepage": "https://github.com/monstrous-dev/revertman",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monstrous-dev/revertman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monstrous-dev/revertman/issues"
+  },
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"],
+    "skills": ["./skills"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
